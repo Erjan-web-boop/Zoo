@@ -14,10 +14,16 @@ class Zoo {
         }
     }
 
+    void feedAll(){
+        for(Animal e : animals){
+            e.eat();
+        }
+    }
+
     void performAllTricks(){
         for(Animal a : animals){
-            if(a instanceof Trainable){
-                ((Trainable) a).performTrick();
+            if(a instanceof Trainable t){
+                t.performTrick();
             }
         }
     }

@@ -5,7 +5,7 @@ class Snake extends Animal{
     }
 
     @Override
-    void makeSound(){
-        System.out.println("Pss...pss...pss");
+    public void makeSound(){
+        System.out.println(getName() + "says: Pss...pss...pss");
     }
 }

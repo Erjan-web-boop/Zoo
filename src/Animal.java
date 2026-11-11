@@ -10,9 +10,9 @@ abstract class Animal {
     public String getName(){ return name;}
     public int getAge(){ return age;}
 
-    abstract void makeSound();
+    public abstract void makeSound();
 
-    void eat(){
-        System.out.println("M..m..m");
+    public void eat(){
+        System.out.println(getName() + " says: M..m..m");
     }
 }

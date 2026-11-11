@@ -5,11 +5,11 @@ class Dog extends Animal implements Trainable{
     }
 
     @Override
-    void makeSound() {
-        System.out.println("Gav..gav...gav");
+    public void makeSound() {
+        System.out.println(getName() + " says: Gav..gav...gav");
     }
-
+    @Override
     public void performTrick(){
-        System.out.println("Plays with ball");
+        System.out.println(getName() + "Plays with ball");
     }
 }

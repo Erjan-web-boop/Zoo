@@ -4,7 +4,7 @@ class Shark extends Animal{
     }
 
     @Override
-    void makeSound(){
-        System.out.println("...");
+    public void makeSound(){
+        System.out.println(getName() + " says: ...");
     }
 }

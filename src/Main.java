@@ -9,5 +9,7 @@ public class Main{
 
         zoo.makeAllSounds();
         zoo.performAllTricks();
+        zoo.feedAll();
     }
+
 }
